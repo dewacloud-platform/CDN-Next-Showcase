@@ -24,6 +24,7 @@
     "@types/node": "^20.12.12",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
     "bad-words": "^3.0.4",
     "bcrypt": "^5.1.1",
     "eslint": "8.34.0",
@@ -42,7 +43,6 @@
   "devDependencies": {
     "@types/bad-words": "^3.0.1",
     "@types/bcrypt": "^5.0.2",
-    "autoprefixer": "^10.4.14",
     "dotenv-cli": "^7.0.0",
     "postcss": "^8.4.27",
     "prisma": "^4.10.1",
