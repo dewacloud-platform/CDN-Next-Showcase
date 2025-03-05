@@ -120,7 +120,7 @@ export default function AddPost(): JSX.Element {
           {loading ? <Spinner size="sm" /> : "Post"}
         </Button>
 
-        <Popover
+        {/* <Popover
           isOpen={enhanceError}
           onOpenChange={enhanceError ? setEnhanceError : undefined}
           placement="right"
@@ -141,7 +141,7 @@ export default function AddPost(): JSX.Element {
           <PopoverContent>
             <p className="p-2">Error enhancing post. Please try again.</p>
           </PopoverContent>
-        </Popover>
+        </Popover> */}
 
         <p className="ml-auto">{(content && content.length) || "0"}/300</p>
       </div>

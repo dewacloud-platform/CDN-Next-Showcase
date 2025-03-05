@@ -18,8 +18,10 @@ cp .env.example .env
 
 4. **Populate .env**: Create database connection string using database credentials
 
-5. **Seed database**
+5. **Generate Prisma Client, migrate, and seed database**
 ```
+npx prisma generate
+npx prisma migrate deploy
 npm run seed
 ```
 
@@ -33,3 +35,7 @@ npm run dev
 npm run build
 npm run start
 ```
+
+User credential:
+Email: user1@example.com
+Password: securepassword
