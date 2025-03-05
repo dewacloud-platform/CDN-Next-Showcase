@@ -6,7 +6,7 @@ Original source: [Next.js Feature Showcase App](https://github.com/yaseenmustaph
 1. **Install dependencies**
 ```
 cd CDN-Next-Showcase
-npm install
+npm install --omit=optional
 ```
 
 2. **Fill ecosystem.config.js file with the appropriate configurations**
